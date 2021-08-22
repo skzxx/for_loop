@@ -17,7 +17,7 @@ int main () {
   }
   //Decrement
   std::cout << "Looping (3) \n" << std::endl;
-  for(int OperatorIndex = 1 /*sebagai indeks awal*/; OperatorIndex <= 10 /*Sebagai batas*/; OperatorIndex--) {
+  for(int OperatorIndex = 1 /*sebagai indeks awal*/; OperatorIndex >= -10 /*Sebagai batas*/; OperatorIndex--) {
     std::cout << OperatorIndex << "\n" << std::endl;
   }
    //Deret dan sum
